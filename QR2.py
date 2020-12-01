@@ -3,8 +3,10 @@ import math
 from copy import deepcopy
 from numpy import dot
 #np.dot умножение матриц
-
+def func():
+    return(2*(x**3)+3*(x**2)+5*x+7)
 A = np.loadtxt('1.txt')
+x = np.loadtxt
 def QR(A):
     #копирование и транспонирование матрицы
     At = A.transpose()
@@ -46,4 +48,10 @@ QR(A)
 Qb,rD = np.linalg.qr(A)
 print('\n',Qb.T)
 print('\n',rD)
+
+def matbaz(A):
+    F = []
+    for i in range(3):
+        for j in range(len(x))
+
 
