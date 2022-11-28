@@ -5,6 +5,7 @@ from numpy import dot
 #np.dot умножение матриц
 def func():
     return(2*(x**3)+3*(x**2)+5*x+7)
+
 A = np.loadtxt('1.txt')
 x = np.loadtxt
 def QR(A):
